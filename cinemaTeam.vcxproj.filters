@@ -24,6 +24,8 @@
     <ClInclude Include="header_lib.h">
       <Filter>lib</Filter>
     </ClInclude>
+    <ClInclude Include="interface_actor.h" />
+    <ClInclude Include="movie.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

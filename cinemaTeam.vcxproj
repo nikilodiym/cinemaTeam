@@ -131,6 +131,7 @@
     <ClInclude Include="header_lib.h" />
     <ClInclude Include="interface_actor.h" />
     <ClInclude Include="movie.h" />
+    <ClInclude Include="movie_management.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
