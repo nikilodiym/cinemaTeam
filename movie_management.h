@@ -2,7 +2,7 @@
 #define MOVIE_MANAGEMENT_H
 #include "header_lib.h"
 
-struct Movie 
+struct Movie
 {
 	string name;
 	string genre;
@@ -11,7 +11,7 @@ struct Movie
 	string director;
 };
 
-class movie_management 
+class movie_management
 {
 public:
 	void add_movie(string name, string genre, int rating, string year, string director);
