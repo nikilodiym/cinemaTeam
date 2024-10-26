@@ -132,9 +132,14 @@
     <ClInclude Include="interface_actor.h" />
     <ClInclude Include="movie.h" />
     <ClInclude Include="movie_management.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="ticket_booking.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="movie_management.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="ticket_booking.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
