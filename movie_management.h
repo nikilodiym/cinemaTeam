@@ -14,9 +14,10 @@ struct Movie
 class movie_management
 {
 public:
-	void add_movie(string name, string genre, int rating, string year, string director);
-	void edit_movie(string name, string genre, int rating, string year, string director);
-	void delete_movie(string name);
+	void add_movie(const Movie& movie);
+	void edit_movie(const string& name, const Movie& new_details);
+	void delete_movie(const string& name);
+	vector<Movie> get_movies() const;
 
 private:
 	vector<Movie> movies;
