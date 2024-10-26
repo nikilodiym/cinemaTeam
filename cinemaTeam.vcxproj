@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="domain.h" />
     <ClInclude Include="header_lib.h" />
+    <ClInclude Include="user.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

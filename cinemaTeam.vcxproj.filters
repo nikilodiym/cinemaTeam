@@ -24,6 +24,9 @@
     <ClInclude Include="header_lib.h">
       <Filter>lib</Filter>
     </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
