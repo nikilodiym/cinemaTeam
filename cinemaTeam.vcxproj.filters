@@ -1,2 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{56d736c1-4d2e-4574-ad1f-12f00bc55ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{dc9c47fc-cefd-4b9f-906f-90c6c513e952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\entities">
+      <UniqueIdentifier>{fa729716-a23c-4419-a972-111b041ae3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\repository">
+      <UniqueIdentifier>{c627b2da-5e46-4512-890b-eca07ae06c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{699e9a68-2832-4add-9461-7b74f1849f29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="header_lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
