@@ -24,12 +24,34 @@
     <ClInclude Include="header_lib.h">
       <Filter>lib</Filter>
     </ClInclude>
-    <ClInclude Include="interface_actor.h" />
-    <ClInclude Include="movie.h" />
+    <ClInclude Include="interface_actor.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="movie.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="movie_management.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="ticket_booking.h">
+      <Filter>domain\repository</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="movie_management.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="ticket_booking.cpp">
+      <Filter>domain\repository</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
